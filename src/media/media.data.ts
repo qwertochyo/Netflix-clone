@@ -4,6 +4,7 @@ export const mediaData: IMediaItem[] = [
   {
     id: 1,
     title: "Loki",
+    category: "TV Show",
     slug: "loki",
     year: 2021,
     rating: 8.2,
@@ -13,6 +14,7 @@ export const mediaData: IMediaItem[] = [
   {
     id: 2,
     title: "The Morning Show",
+    category: "TV Show",
     slug: "the-morning-show",
     year: 2019,
     rating: 8.4,
@@ -22,6 +24,7 @@ export const mediaData: IMediaItem[] = [
   {
     id: 3,
     title: "You",
+    category: "TV Show",
     slug: "you",
     year: 2018,
     rating: 7.8,
@@ -31,6 +34,7 @@ export const mediaData: IMediaItem[] = [
   {
     id: 4,
     title: "Stranger Things",
+    category: "TV Show",
     slug: "stranger-things",
     year: 2016,
     rating: 8.7,
@@ -40,6 +44,7 @@ export const mediaData: IMediaItem[] = [
   {
     id: 5,
     title: "Bridgerton",
+    category: "TV Show",
     slug: "bridgerton",
     year: 2020,
     rating: 7.3,
@@ -49,6 +54,7 @@ export const mediaData: IMediaItem[] = [
   {
     id: 6,
     title: "Emily in Paris",
+    category: "TV Show",
     slug: "emily-in-paris",
     year: 2020,
     rating: 7.0,
@@ -58,6 +64,7 @@ export const mediaData: IMediaItem[] = [
   {
     id: 7,
     title: "The Boys",
+    category: "TV Show",
     slug: "the-boys",
     year: 2019,
     rating: 8.7,
@@ -67,6 +74,7 @@ export const mediaData: IMediaItem[] = [
   {
     id: 8,
     title: "The Mandalorian",
+    category: "TV Show",
     slug: "the-mandalorian",
     year: 2019,
     rating: 8.8,
@@ -76,6 +84,7 @@ export const mediaData: IMediaItem[] = [
   {
     id: 9,
     title: "Peaky Blinders",
+    category: "TV Show",
     slug: "peaky-blinders",
     year: 2013,
     rating: 8.8,
@@ -85,10 +94,31 @@ export const mediaData: IMediaItem[] = [
   {
     id: 10,
     title: "Reacher",
+    category: "TV Show",
     slug: "reacher",
     year: 2022,
     rating: 7.9,
     poster: "/posters/reacher.jpg",
     genres: ["Action", "Crime", "Drama"]
-  }
+  },
+  {
+    id: 11,
+    title: "Westworld",
+    category: "TV Show",
+    slug: "westworld",
+    year: 2016,
+    rating: 8.5,
+    poster: "/posters/westworld.jpg",
+    genres: ["Drama", "Mystery", "Sci-Fi"]
+  },
+  {
+    id: 12,
+    title: "Breaking Bad",
+    category: "TV Show",
+    slug: "breaking-bad",
+    year: 2008,
+    rating: 9.5,
+    poster: "/posters/breaking-bad.jpg",
+    genres: ["Crime", "Drama", "Thriller"]
+  }  
 ];

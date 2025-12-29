@@ -3,6 +3,7 @@ export interface IMediaItem {
   slug: string,
 
   title: string,
+  category: string,
   poster: string,
 
   backdrop?: string

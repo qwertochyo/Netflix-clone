@@ -3,7 +3,7 @@ import Menu from "./Menu";
 
 export default function Header() {
   return (
-    <header className="p-8 flex justify-between items-center">
+    <header className="p-6 flex justify-between items-center">
       <div className="flex items-center gap-15">
         <Grip className="cursor-pointer" size={35} />
         <Menu />
