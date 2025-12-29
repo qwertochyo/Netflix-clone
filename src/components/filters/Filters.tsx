@@ -1,6 +1,6 @@
 import { twMerge } from "tailwind-merge";
 import { filtersData } from "./filters.data";
-import { useFilterStore } from "../store/store";
+import { useFilterStore } from "../../store/store";
 
 export default function Filters() {
   const { currentFilter, setCurrentFilter } = useFilterStore();

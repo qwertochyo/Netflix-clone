@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import type { TFilter } from "../filters/filters.data";
+import type { TFilter } from "../components/filters/filters.data";
 
 export interface IStore {
   currentFilter: TFilter,
