@@ -6,6 +6,6 @@ export interface ICarousel {
 }
 
 export const useCarouselStore = create<ICarousel>((set) => ({
-  activeCardId: 1,
+  activeCardId: 4,
   setActiveCardId: (id) => set({activeCardId: id})
 }))

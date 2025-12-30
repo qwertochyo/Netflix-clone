@@ -9,7 +9,11 @@ export const mediaData: IMediaItem[] = [
     year: 2021,
     rating: 8.2,
     poster: "/posters/loki.jpg",
-    genres: ["Action", "Adventure", "Fantasy"]
+    genres: ["Action", "Adventure", "Fantasy"],
+    seasons: [
+      { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
+      { id: 2, slug: "season-2", title: "Season 2", episodes: [] }
+    ]
   },
   {
     id: 2,
@@ -19,7 +23,12 @@ export const mediaData: IMediaItem[] = [
     year: 2019,
     rating: 8.4,
     poster: "/posters/the-morning-show.jpg",
-    genres: ["Drama"]
+    genres: ["Drama"],
+    seasons: [
+      { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
+      { id: 2, slug: "season-2", title: "Season 2", episodes: [] },
+      { id: 3, slug: "season-3", title: "Season 3", episodes: [] }
+    ]
   },
   {
     id: 3,
@@ -29,7 +38,13 @@ export const mediaData: IMediaItem[] = [
     year: 2018,
     rating: 7.8,
     poster: "/posters/you.jpg",
-    genres: ["Crime", "Drama", "Thriller"]
+    genres: ["Crime", "Drama", "Thriller"],
+    seasons: [
+      { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
+      { id: 2, slug: "season-2", title: "Season 2", episodes: [] },
+      { id: 3, slug: "season-3", title: "Season 3", episodes: [] },
+      { id: 4, slug: "season-4", title: "Season 4", episodes: [] }
+    ]
   },
   {
     id: 4,
@@ -39,7 +54,13 @@ export const mediaData: IMediaItem[] = [
     year: 2016,
     rating: 8.7,
     poster: "/posters/stranger-things.jpg",
-    genres: ["Drama", "Fantasy", "Horror"]
+    genres: ["Drama", "Fantasy", "Horror"],
+    seasons: [
+      { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
+      { id: 2, slug: "season-2", title: "Season 2", episodes: [] },
+      { id: 3, slug: "season-3", title: "Season 3", episodes: [] },
+      { id: 4, slug: "season-4", title: "Season 4", episodes: [] }
+    ]
   },
   {
     id: 5,
@@ -49,7 +70,12 @@ export const mediaData: IMediaItem[] = [
     year: 2020,
     rating: 7.3,
     poster: "/posters/bridgerton.jpg",
-    genres: ["Drama", "Romance"]
+    genres: ["Drama", "Romance"],
+    seasons: [
+      { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
+      { id: 2, slug: "season-2", title: "Season 2", episodes: [] },
+      { id: 3, slug: "season-3", title: "Season 3", episodes: [] }
+    ]
   },
   {
     id: 6,
@@ -59,7 +85,13 @@ export const mediaData: IMediaItem[] = [
     year: 2020,
     rating: 7.0,
     poster: "/posters/emily-in-paris.jpg",
-    genres: ["Comedy", "Drama", "Romance"]
+    genres: ["Comedy", "Drama", "Romance"],
+    seasons: [
+      { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
+      { id: 2, slug: "season-2", title: "Season 2", episodes: [] },
+      { id: 3, slug: "season-3", title: "Season 3", episodes: [] },
+      { id: 4, slug: "season-4", title: "Season 4", episodes: [] }
+    ]
   },
   {
     id: 7,
@@ -69,7 +101,13 @@ export const mediaData: IMediaItem[] = [
     year: 2019,
     rating: 8.7,
     poster: "/posters/the-boys.jpg",
-    genres: ["Action", "Comedy", "Crime", "Drama", "Sci-Fi"]
+    genres: ["Action", "Comedy", "Crime", "Drama", "Sci-Fi"],
+    seasons: [
+      { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
+      { id: 2, slug: "season-2", title: "Season 2", episodes: [] },
+      { id: 3, slug: "season-3", title: "Season 3", episodes: [] },
+      { id: 4, slug: "season-4", title: "Season 4", episodes: [] }
+    ]
   },
   {
     id: 8,
@@ -79,7 +117,12 @@ export const mediaData: IMediaItem[] = [
     year: 2019,
     rating: 8.8,
     poster: "/posters/the-mandalorian.jpg",
-    genres: ["Action", "Adventure", "Sci-Fi"]
+    genres: ["Action", "Adventure", "Sci-Fi"],
+    seasons: [
+      { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
+      { id: 2, slug: "season-2", title: "Season 2", episodes: [] },
+      { id: 3, slug: "season-3", title: "Season 3", episodes: [] }
+    ]
   },
   {
     id: 9,
@@ -89,7 +132,15 @@ export const mediaData: IMediaItem[] = [
     year: 2013,
     rating: 8.8,
     poster: "/posters/peaky-blinders.jpg",
-    genres: ["Crime", "Drama"]
+    genres: ["Crime", "Drama"],
+    seasons: [
+      { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
+      { id: 2, slug: "season-2", title: "Season 2", episodes: [] },
+      { id: 3, slug: "season-3", title: "Season 3", episodes: [] },
+      { id: 4, slug: "season-4", title: "Season 4", episodes: [] },
+      { id: 5, slug: "season-5", title: "Season 5", episodes: [] },
+      { id: 6, slug: "season-6", title: "Season 6", episodes: [] }
+    ]
   },
   {
     id: 10,
@@ -99,7 +150,11 @@ export const mediaData: IMediaItem[] = [
     year: 2022,
     rating: 7.9,
     poster: "/posters/reacher.jpg",
-    genres: ["Action", "Crime", "Drama"]
+    genres: ["Action", "Crime", "Drama"],
+    seasons: [
+      { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
+      { id: 2, slug: "season-2", title: "Season 2", episodes: [] }
+    ]
   },
   {
     id: 11,
@@ -109,7 +164,13 @@ export const mediaData: IMediaItem[] = [
     year: 2016,
     rating: 8.5,
     poster: "/posters/westworld.jpg",
-    genres: ["Drama", "Mystery", "Sci-Fi"]
+    genres: ["Drama", "Mystery", "Sci-Fi"],
+    seasons: [
+      { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
+      { id: 2, slug: "season-2", title: "Season 2", episodes: [] },
+      { id: 3, slug: "season-3", title: "Season 3", episodes: [] },
+      { id: 4, slug: "season-4", title: "Season 4", episodes: [] }
+    ]
   },
   {
     id: 12,
@@ -119,6 +180,13 @@ export const mediaData: IMediaItem[] = [
     year: 2008,
     rating: 9.5,
     poster: "/posters/breaking-bad.jpg",
-    genres: ["Crime", "Drama", "Thriller"]
-  }  
+    genres: ["Crime", "Drama", "Thriller"],
+    seasons: [
+      { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
+      { id: 2, slug: "season-2", title: "Season 2", episodes: [] },
+      { id: 3, slug: "season-3", title: "Season 3", episodes: [] },
+      { id: 4, slug: "season-4", title: "Season 4", episodes: [] },
+      { id: 5, slug: "season-5", title: "Season 5", episodes: [] }
+    ]
+  }
 ];
