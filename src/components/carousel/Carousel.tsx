@@ -3,6 +3,7 @@ import { mediaData } from "../../media/media.data";
 import { useCarouselStore } from "../../store/carousel.store";
 import CarouselItem from "./carouselItem/CarouselItem";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router";
 
 const getCardIndex = (cardId: number) => {
   return mediaData.findIndex((media) => media.id === cardId)
@@ -11,9 +12,11 @@ const getCardIndex = (cardId: number) => {
 export default function Carousel() {
   const {activeCardId, setActiveCardId} = useCarouselStore();
   const [rotateAngle, setRotateAngle] = useState(0);
+  const navigate = useNavigate();
 
-  const updateActiveCard = (id: number) => {
+  const updateActiveCard = (id: number, slug: string) => {
     if (activeCardId === id) {
+      navigate(`/media/${slug}`);
       return;
     }
 
@@ -46,7 +49,7 @@ export default function Carousel() {
       }}
     >
       {mediaData.map((media, index) => (
-        <CarouselItem item={media} index={index} key={media.id} length={mediaData.length} updateActiveCard={updateActiveCard.bind(null, media.id)} />
+        <CarouselItem item={media} index={index} key={media.id} length={mediaData.length} updateActiveCard={() => updateActiveCard(media.id, media.slug)} />
       ))}
     </motion.div>
   );

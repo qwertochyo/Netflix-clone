@@ -24,16 +24,14 @@ export default function CarouselItem({ item, index, length, updateActiveCard }: 
     <div style={{ position: "absolute", left: "50%", top: "50%", transform: `translate(-50%, -50%) rotate(${angle}deg) translate(0, -${radius}px)`, zIndex: isActive ? 1 : 0 }}>
       <motion.button
         className={twMerge("cursor-pointer", !isActive && "grayscale-100 contrast-75")}
-        initial={{ zIndex: 0 }}
         animate={{
           scale: isActive ? 1.1 : 1,
-          zIndex: isActive ? 1 : 0
         }}
         transition={{ type: "keyframes", stiffness: 230, damping: 32 }}
         onClick={updateActiveCard}
       >
         <div
-          className="h-100 w-70 bg-cover p-3 pb-5   rounded-xl"
+          className="h-100 w-70 bg-cover p-3 pb-5 rounded-xl"
           style={{ backgroundImage: `url(${item.poster})` }}
         >
           <AnimatePresence>

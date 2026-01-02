@@ -9,6 +9,7 @@ export const mediaData: IMediaItem[] = [
     year: 2021,
     rating: 8.2,
     poster: "/posters/loki.jpg",
+    backdrop: "/backdrops/loki-backdrop.jpg",
     genres: ["Action", "Adventure", "Fantasy"],
     seasons: [
       { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
@@ -23,6 +24,7 @@ export const mediaData: IMediaItem[] = [
     year: 2019,
     rating: 8.4,
     poster: "/posters/the-morning-show.jpg",
+    backdrop: "/backdrops/the-morning-show-backdrop.jpg",
     genres: ["Drama"],
     seasons: [
       { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
@@ -38,6 +40,7 @@ export const mediaData: IMediaItem[] = [
     year: 2018,
     rating: 7.8,
     poster: "/posters/you.jpg",
+    backdrop: "/backdrops/you-backdrop.jpg",
     genres: ["Crime", "Drama", "Thriller"],
     seasons: [
       { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
@@ -54,14 +57,84 @@ export const mediaData: IMediaItem[] = [
     year: 2016,
     rating: 8.7,
     poster: "/posters/stranger-things.jpg",
+    backdrop: "/backdrops/stranger-things-backdrop.jpg",
     genres: ["Drama", "Fantasy", "Horror"],
     seasons: [
-      { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
-      { id: 2, slug: "season-2", title: "Season 2", episodes: [] },
-      { id: 3, slug: "season-3", title: "Season 3", episodes: [] },
-      { id: 4, slug: "season-4", title: "Season 4", episodes: [] }
+      {
+        id: 1,
+        slug: "season-1",
+        title: "Season 1",
+        episodes: [
+          {
+            id: 1,
+            slug: "episode-1",
+            title: "Episode 1",
+            poster: "/episodes/e1.jpg",
+            duration: 47,
+            videoUrl: "/videos/stranger-things/s1e1.mp4"
+          },
+          {
+            id: 2,
+            slug: "episode-2",
+            title: "Episode 2",
+            poster: "/episodes/e2.jpg",
+            duration: 55,
+            videoUrl: "/videos/stranger-things/s1e2.mp4"
+          },
+          {
+            id: 3,
+            slug: "episode-3",
+            title: "Episode 3",
+            poster: "/episodes/e3.jpg",
+            duration: 51,
+            videoUrl: "/videos/stranger-things/s1e3.mp4"
+          },
+          {
+            id: 4,
+            slug: "episode-4",
+            title: "Episode 4",
+            poster: "/episodes/e4.jpg",
+            duration: 49,
+            videoUrl: "/videos/stranger-things/s1e4.mp4"
+          },
+          {
+            id: 5,
+            slug: "episode-5",
+            title: "Episode 5",
+            poster: "/episodes/e5.jpg",
+            duration: 53,
+            videoUrl: "/videos/stranger-things/s1e5.mp4"
+          },
+          {
+            id: 6,
+            slug: "episode-6",
+            title: "Episode 6",
+            poster: "/episodes/e6.jpg",
+            duration: 46,
+            videoUrl: "/videos/stranger-things/s1e6.mp4"
+          }
+        ]
+      },
+      {
+        id: 2,
+        slug: "season-2",
+        title: "Season 2",
+        episodes: []
+      },
+      {
+        id: 3,
+        slug: "season-3",
+        title: "Season 3",
+        episodes: []
+      },
+      {
+        id: 4,
+        slug: "season-4",
+        title: "Season 4",
+        episodes: []
+      }
     ]
-  },
+  },  
   {
     id: 5,
     title: "Bridgerton",
@@ -70,6 +143,7 @@ export const mediaData: IMediaItem[] = [
     year: 2020,
     rating: 7.3,
     poster: "/posters/bridgerton.jpg",
+    backdrop: "/backdrops/bridgerton-backdrop.jpg",
     genres: ["Drama", "Romance"],
     seasons: [
       { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
@@ -85,6 +159,7 @@ export const mediaData: IMediaItem[] = [
     year: 2020,
     rating: 7.0,
     poster: "/posters/emily-in-paris.jpg",
+    backdrop: "/backdrops/emily-in-paris-backdrop.jpg",
     genres: ["Comedy", "Drama", "Romance"],
     seasons: [
       { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
@@ -101,6 +176,7 @@ export const mediaData: IMediaItem[] = [
     year: 2019,
     rating: 8.7,
     poster: "/posters/the-boys.jpg",
+    backdrop: "/backdrops/the-boys-backdrop.jpg",
     genres: ["Action", "Comedy", "Crime", "Drama", "Sci-Fi"],
     seasons: [
       { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
@@ -117,6 +193,7 @@ export const mediaData: IMediaItem[] = [
     year: 2019,
     rating: 8.8,
     poster: "/posters/the-mandalorian.jpg",
+    backdrop: "/backdrops/the-mandalorian-backdrop.jpg",
     genres: ["Action", "Adventure", "Sci-Fi"],
     seasons: [
       { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
@@ -132,6 +209,7 @@ export const mediaData: IMediaItem[] = [
     year: 2013,
     rating: 8.8,
     poster: "/posters/peaky-blinders.jpg",
+    backdrop: "/backdrops/peaky-blinders-backdrop.jpg",
     genres: ["Crime", "Drama"],
     seasons: [
       { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
@@ -150,6 +228,7 @@ export const mediaData: IMediaItem[] = [
     year: 2022,
     rating: 7.9,
     poster: "/posters/reacher.jpg",
+    backdrop: "/backdrops/reacher-backdrop.jpg",
     genres: ["Action", "Crime", "Drama"],
     seasons: [
       { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
@@ -164,6 +243,7 @@ export const mediaData: IMediaItem[] = [
     year: 2016,
     rating: 8.5,
     poster: "/posters/westworld.jpg",
+    backdrop: "/backdrops/westworld-backdrop.jpg",
     genres: ["Drama", "Mystery", "Sci-Fi"],
     seasons: [
       { id: 1, slug: "season-1", title: "Season 1", episodes: [] },
@@ -180,6 +260,7 @@ export const mediaData: IMediaItem[] = [
     year: 2008,
     rating: 9.5,
     poster: "/posters/breaking-bad.jpg",
+    backdrop: "/backdrops/breaking-bad-backdrop.jpg",
     genres: ["Crime", "Drama", "Thriller"],
     seasons: [
       { id: 1, slug: "season-1", title: "Season 1", episodes: [] },

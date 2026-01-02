@@ -6,12 +6,12 @@ export interface IMediaItem {
   category: string,
   poster: string,
 
-  backdrop?: string
+  backdrop: string
   rating: number,
 
   year: number,
 
-  seasons?: ISeason[],
+  seasons: ISeason[],
 
   genres: string[] 
 }
